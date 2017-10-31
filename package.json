@@ -1,0 +1,21 @@
+{
+  "name": "apto-tslint",
+  "version": "1.0.0",
+  "description": "Apto TSLint Config",
+  "main": "tslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:aptotude/apto-tslint.git",
+  "author": "Apto Inc",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aptotude/apto-tslint/issues"
+  },
+  "homepage": "https://github.com/aptotude/apto-tslint#readme",
+  "keywords": [
+    "apto",
+    "tslint",
+    "typescript"
+  ]
+}
