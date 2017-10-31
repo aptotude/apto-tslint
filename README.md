@@ -1,5 +1,8 @@
 # TSLint Config Apto
 
+[![NPM version](https://img.shields.io/npm/v/tslint-config-apto.svg?style=flat)](https://www.npmjs.com/package/tslint-config-apto)
+[![Downloads](http://img.shields.io/npm/dm/tslint-config-apto.svg?style=flat)](https://npmjs.org/package/tslint-config-apto)
+
 ## Installation
 
 ```sh
