@@ -1,18 +1,15 @@
 {
-  "name": "apto-tslint",
+  "name": "tslint-config-apto",
   "version": "1.0.0",
-  "description": "Apto TSLint Config",
+  "description": "TSLint Config for Apto",
   "main": "tslint.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "github:aptotude/apto-tslint.git",
+  "repository": "github:aptotude/tslint-config-apto.git",
   "author": "Apto Inc",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/aptotude/apto-tslint/issues"
+    "url": "https://github.com/aptotude/tslint-config-apto/issues"
   },
-  "homepage": "https://github.com/aptotude/apto-tslint#readme",
+  "homepage": "https://github.com/aptotude/tslint-config-apto#readme",
   "keywords": [
     "apto",
     "tslint",
