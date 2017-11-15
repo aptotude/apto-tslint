@@ -5,6 +5,12 @@ module.exports = {
         path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
     ],
     rules: {
+        "ban": [
+            true,
+            "eval",
+            { "name": ["it", "only"], "message": "don't focus tests" },
+            { "name": ["describe", "only"], "message": "don't focus tests" }
+        ],
         'no-namespace': [
             true,
             'allow-declarations'
