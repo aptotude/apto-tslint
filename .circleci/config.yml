@@ -1,0 +1,16 @@
+version: 2
+
+jobs:
+    build:
+        working_directory: ~/apto-tslint
+        docker:
+            # LTS version
+            - image: circleci/node:8-browsers
+        steps:
+            - checkout
+            # Create a new github release
+            - run: >
+                if [ "$CIRCLE_BRANCH" == "master" ]; then
+                    echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+                    npm run release
+                fi

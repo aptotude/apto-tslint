@@ -4,8 +4,14 @@
   "description": "TSLint Config for Apto",
   "main": "tslint.js",
   "repository": "github:aptotude/tslint-config-apto.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Apto Inc",
   "license": "Apache-2.0",
+  "scripts": {
+    "release": "./scripts/release.sh"
+  },
   "bugs": {
     "url": "https://github.com/aptotude/tslint-config-apto/issues"
   },
