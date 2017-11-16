@@ -14,7 +14,7 @@ MAIN_MINOR_VERSION="${LATEST_RELEASE_VERSION%.*}"
 # combine newly incremented version with original MAIN_MINOR VERSION (1.2.4 in this case)
 NEW_FULL_VERSION="$MAIN_MINOR_VERSION.$NEXT_PATCH_VERSION"
 
-DIST_TAR="apto-ionic-lib-$NEW_FULL_VERSION.tgz"
+DIST_TAR="tslint-config-apto-$NEW_FULL_VERSION.tgz"
 npm version "$NEW_FULL_VERSION"
 npm pack
 # current bug in npm@5 when trying to publish a .tgz
