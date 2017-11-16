@@ -9,7 +9,9 @@ module.exports = {
             true,
             "eval",
             { "name": ["it", "only"], "message": "don't focus tests" },
-            { "name": ["describe", "only"], "message": "don't focus tests" }
+            { "name": ["describe", "only"], "message": "don't focus tests" },
+            { "name": ["fdescribe"], "message": "don't focus tests" },
+            { "name": ["fit"], "message": "don't focus tests" }
         ],
         'no-namespace': [
             true,
