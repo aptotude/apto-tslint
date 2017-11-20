@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-apto",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TSLint Config for Apto",
   "main": "tslint.js",
   "repository": "github:aptotude/tslint-config-apto.git",
