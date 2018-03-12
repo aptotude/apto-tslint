@@ -58,6 +58,10 @@ module.exports = {
             'timeEnd',
             'trace'
         ],
+        'no-unused-expression' : [
+            true,
+            'allow-fast-null-checks'
+        ],
         'whitespace': [
             true,
             'check-branch',
