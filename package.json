@@ -17,5 +17,9 @@
     "apto",
     "tslint",
     "typescript"
-  ]
+  ],
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.1.0"
+  }
 }
