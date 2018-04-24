@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-apto",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "TSLint Config for Apto",
   "main": "tslint.js",
   "repository": "github:aptotude/tslint-config-apto.git",
@@ -18,7 +18,7 @@
     "tslint",
     "typescript"
   ],
-  "devDependencies": {
+  "dependencies": {
     "tslint": "^5.9.1",
     "tslint-eslint-rules": "^5.1.0"
   }
